@@ -72,10 +72,7 @@ while text = newdata.gets do
 	tmp = text.chomp.split(',')
 
 	array[n1] = tmp[5].to_s
-
-	#n1 = 1
 	n1 = n1 + 1
-
 end
 
 n=0
